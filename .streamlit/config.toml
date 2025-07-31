@@ -1,0 +1,6 @@
+browser.gatherUsageStats = false
+[theme]
+base="dark"
+primaryColor="#0d00ff"
+backgroundColor="#000000"
+secondaryBackgroundColor="#0c0d10"
