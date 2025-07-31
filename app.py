@@ -11,6 +11,9 @@ from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
 import time
+import asyncio
+import nest_asyncio
+nest_asyncio.apply()
 
 # Load environment variables
 load_dotenv()
